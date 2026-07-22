@@ -25,11 +25,46 @@
 
     <body>
         <!-- Nav Start -->
-    <!-- nav bar -->
-    <?php
-    include 'autoloader.php';
-    require "nav.php";
-    ?>
+        <div id="nav" style="background:linear-gradient(90deg,#0f7b5c,#1fa97a);">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <a href="index.html" class="navbar-brand d-flex align-items-center" style="color:#fff; font-weight:600; font-size:18px;">
+                <img src="img/abulogo2.jpeg" 
+                     style="width:50px; height:50px; border-radius:50%; margin-right:10px;" 
+                     alt="Logo">
+               <div style="margin-left:50px">CAAS MANDO
+                <span style="font-size:8px; display:block">COLLEGE OF AGRICULTURE AND ANIMAL SCIENCE</span>
+                <span style="font-size:8px; display:block">MANDO KADUNA</span>
+               </div> 
+            </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav ml-auto">
+                            <a href="index.html"  class="nav-item nav-link active">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <a href="service.html" class="nav-item nav-link">Programs</a>
+                            <!-- <a href="books.html?books=1" class="nav-item nav-link <?php echo $books ?>">Books</a> -->
+                            <!-- <a href="portfolio.html" class="nav-item nav-link">Portfolio</a> -->
+                            <!-- <a href="pricing.html" class="nav-item nav-link">Pricing</a> -->
+                            <!-- <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                                <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">Skills</a>
+                                    <a href="#" class="dropdown-item">Team Members</a>
+                                    <a href="#" class="dropdown-item">Reviews</a>
+                                    <a href="#" class="dropdown-item">Clients</a>
+                                    <a href="#" class="dropdown-item">Single Page</a>
+                                </div>
+                            </div> -->
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>                        
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
     <!-- end nav bar -->
         <!-- Nav End -->
 
@@ -223,7 +258,7 @@
 Our programs combine classroom learning with hands-on practical experience on farms, laboratories, and research centers.
                     </p>
                 </div>
-                <a class="btn" href="about.php?about=1">Read More</a>
+                <a class="btn" href="about.html?about=1">Read More</a>
             </div>
         </div>
         <!-- Call To Action End -->
@@ -366,9 +401,24 @@ Our programs combine classroom learning with hands-on practical experience on fa
         </div>
         <!-- Contact End -->
     <!-- nav bar -->
-    <?php
-    require "footer.php";
-    ?>
+        <!-- Footer Start -->
+        <div class="footer" style="background:linear-gradient(90deg,#0f7b5c,#1fa97a); color:white">
+
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 copyright">
+                        Copyright &copy; 2026 <a href="" style="color:white">CAASABU MANDO</a>. All Rights Reserved
+                    </div>
+                    <div class="col-md-6 credit">
+						<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <!-- Designed by <a href="#" style="color:white">Suleiman Mahmud</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
     <!-- end nav bar -->
 
 
